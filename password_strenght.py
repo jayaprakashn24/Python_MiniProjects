@@ -1,6 +1,9 @@
 
 import re 
 
+# re stands for Regular Expression. It is a built-in Python module used to search, match, and validate text based on a pattern.
+
+
 password = input("Enter password: ")
 
 Strong = (len(password) >=8 and 
